@@ -1,9 +1,12 @@
 # iFollow_test
 
 J'ai eu des problèmes pour télécharger l'ensemble du fichier turtlebot3 sur Github. Je n'ai donc fourni que les scripts python que j'ai écrit.
-Le script mqtt/mqtt_publisher.py était placé dans un dossier à part, indépendant de ros (le dossier mqtt).
-Les scripts mqtt_subscriber.py et apriltags.py était placé dans le package ROS du turtlebot3, dans le folder src/turtlebot3/turtlebot3_teleop/nodes.
-Pour refaire les simulations et vérifier que mon code fonctionne bien, il faudrait sûrement les replacer à cet endroit.
+Les fichiers présents dans le git sont les suivants :
+	- Le dossier mqtt, avec le script mqtt/mqtt_publisher.py, était un dossier à part, indépendant de ros.
+	- Le dossier node était présent dans le package ROS du turtlebot3, dans le folder src/turtlebot3/turtlebot3_teleop/nodes. Les scripts mqtt_subscriber.py et apriltags.py sont des fichiers (dépendant de ros) que j'ai rajouté pour les questions 3-4-5-6). Pour refaire les simulations et vérifier que mon code fonctionne bien, il faudrait sûrement les replacer à cet endroit.
+	- map.yaml et map.pgm correspondent à la carte créer sur Rviz pendant la première question
+	- mux_node_info.png montre le fonctionnement de mon mux node (question 2), qui n'a sûrement pas été transmis sur Github parce que je n'ai pas télécharger tout mon package turtlebot sur Github
+	- gray.jpg montre une image de moi avec un AprilTag prise par ma webcam, et montre donc la validation de mon code pour la question 6
 
 
 
