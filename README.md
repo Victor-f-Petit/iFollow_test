@@ -26,6 +26,6 @@ Question 3 : Téléopération à distance (temps estimé : environ 3h, surtout l
 	
 
 Question 4-5-6 : AprilTags (temps estimé : 3h pour la question 4, beaucoup de difficultés avec les AprilTags. 1h pour les questions 5+6, c'était rapide, tout marchait bien)
-	Le script src/turtlebot3/turtlebot3_teleop/nodes/apriltags.py est utilisé ici. Peut être qu'il aurait fallu le placer dans un autre dossier que teleop, mais comme le but de ces questions est seulement de publier un topic avec le nav_goal sans savoir où sont ses subscriber, cela n'a pas d'importance.
-	J'ai mis un parser pour choisir le nom de l'image à analyser (-i path_to_image), sinon une image par défaut est analysée (mais cela correspondait au path sur mon pc, qui est sûrement différent de celui sur votre ordinateur, donc il faut changer le path). Un autre parser --webcam peut être utilisé pour prendre une photo avec la webcam (en appuyant sur SPACE) et analyser s'il y a un apriltag dessus. 
+	Le script src/turtlebot3/turtlebot3_teleop/nodes/apriltags.py est utilisé ici. Peut être qu'il aurait fallu le placer dans un autre dossier que teleop, mais comme le but de ces questions est seulement de publier un topic avec le nav_goal sans savoir où sont ses subscribers, cela n'a pas d'importance.
+	J'ai mis un parser pour choisir le nom de l'image à analyser (-i path_to_image), sinon une image par défaut est analysée (mais cela correspondait au path sur mon pc, qui est sûrement différent de celui sur votre ordinateur, donc il faut changer le path). Un autre parser --webcam peut être utilisé pour prendre une photo avec la webcam (en appuyant sur SPACE) et analyser s'il y a un apriltag dessus (question 6). 
 	
